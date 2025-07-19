@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringbootBlogRestApiApplication {
 
+<<<<<<< Updated upstream
 	@Bean
 	public ModelMapper modelMapper(){
 		return new ModelMapper();
@@ -14,5 +15,10 @@ public class SpringbootBlogRestApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootBlogRestApiApplication.class, args);
 	}
+=======
+    public static void main(String[] args) {
+        SpringApplication.run(SpringbootBlogRestApiApplication.class, args);
+    }
+>>>>>>> Stashed changes
 
 }
